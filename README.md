@@ -1,5 +1,7 @@
 # Stylometric Evidence for Poly-Authorship in the Psychographic Corpus of Chico Xavier
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22856185.svg)](https://doi.org/10.5281/zenodo.22856185)
+
 Code, derived data, and results supporting the paper *"Stylometric Evidence
 for Poly-Authorship in the Psychographic Corpus of Chico Xavier: A
 Computational Case Study"* (Maikel Leyva-Vázquez).
