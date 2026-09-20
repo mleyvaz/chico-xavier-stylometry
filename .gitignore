@@ -16,5 +16,17 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Submission-prep file with internal TO-CONFIRM checklist; not for public repo
+# Journal-specific submission packages: not for this public, name-attributed
+# repo. Critically, PARAPSYCHOLOGY_SUBMISSION.* is a BLINDED manuscript for
+# double-blind review — publishing it here, in a repo with the author's name
+# on the README/LICENSE, would defeat the blinding.
 results/DSH_SUBMISSION.md
+results/DSH_COVER_LETTER.md
+results/ANOMALISTIK_SUBMISSION.md
+results/ANOMALISTIK_SUBMISSION.docx
+results/ANOMALISTIK_COVER_LETTER.md
+results/PARAPSYCHOLOGY_SUBMISSION.md
+results/PARAPSYCHOLOGY_SUBMISSION.docx
+results/PARAPSYCHOLOGY_TITLE_PAGE.md
+results/PARAPSYCHOLOGY_TITLE_PAGE.docx
+results/PARAPSYCHOLOGY_COVER_LETTER.md

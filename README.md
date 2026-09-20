@@ -20,6 +20,9 @@ a shorter summary is in [`results/PAPER_SUMMARY.md`](results/PAPER_SUMMARY.md).
 - `scripts/adversarial_review.py` — the multi-model adversarial review
   harness (via OpenRouter) used for two independent review rounds; the
   reviews themselves are archived in `results/adversarial_review/`.
+- `scripts/md_to_docx.py` — a minimal Markdown-to-.docx converter (via
+  python-docx) used to prepare journal-specific submission files, which are
+  not published in this repository (see note below).
 - `data/manifest.json` — full bibliographic metadata and original source
   URLs (archive.org, publisher PDFs) for every document in the corpus.
 - `data/processed/features.csv`, `function_words.csv`, `embeddings.npy` —
@@ -74,6 +77,21 @@ and its numerical claims were each conducted by four large language models
 accessed via the OpenRouter API; the full reviews are archived in
 `results/adversarial_review/`. See the AI Disclosure Statement in the
 manuscript for full detail.
+
+## About journal-specific submission files
+
+This project produced several journal-specific manuscript variants while
+selecting a venue (formatted for different house styles, word limits, and
+citation conventions). These are **not** published in this repository,
+because one of them — the manuscript submitted to the Journal of
+Parapsychology — is a **blinded manuscript for double-blind peer review**.
+Publishing it here, in a repository whose README, LICENSE, and commit
+history already identify the author, would defeat that blinding. (We note,
+for transparency, that the tension is only partial: this repository's own
+`ARTICLE_DRAFT.md` already contains substantially the same results under the
+author's name, so a sufficiently motivated search could still connect the
+two — a limitation of combining open preprint practice with blinded review
+that we did not fully resolve, rather than one we are unaware of.)
 
 ## License
 
