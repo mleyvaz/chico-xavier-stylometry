@@ -1,0 +1,644 @@
+{
+  "n_chunks_total": 1874,
+  "group_sizes": {
+    "baseline__chico_xavier": 123,
+    "control__castro_alves": 78,
+    "control__cruz_e_sousa": 84,
+    "control__humberto_de_campos": 404,
+    "psychographed__andre_luiz": 593,
+    "psychographed__castro_alves": 2,
+    "psychographed__cruz_e_sousa": 7,
+    "psychographed__emmanuel": 425,
+    "psychographed__humberto_de_campos": 158
+  },
+  "clustering_quality": {
+    "embedding_space": {
+      "silhouette": -0.017510535195469856,
+      "davies_bouldin": 5.213834018333912,
+      "n_chunks": 1874
+    },
+    "stylometric_space": {
+      "silhouette": 0.06248551260155201,
+      "davies_bouldin": 2.2312674345924703,
+      "n_chunks": 1874
+    },
+    "note": "n_chunks may be less than n_chunks_total because silhouette/Davies-Bouldin require every group to have >=2 members; any group with a single chunk is excluded from clustering-quality metrics only, not from other tests."
+  },
+  "permanova": {
+    "embedding_space": {
+      "pseudo_F": 492993.2461633343,
+      "p_value": 0.0,
+      "n_groups": 9,
+      "n_chunks": 1874
+    },
+    "stylometric_space": {
+      "pseudo_F": 662850.4856349253,
+      "p_value": 0.0,
+      "n_groups": 9,
+      "n_chunks": 1874
+    }
+  },
+  "author_tests": {
+    "andre_luiz": {
+      "n_psychographed_chunks": 593,
+      "n_psychographed_books": 10,
+      "chunk_level_exploratory": {
+        "psychographed_vs_baseline": {
+          "burrows_delta": {
+            "observed_distance": 1.0092930071837325,
+            "perm_mean": 0.9051026973702428,
+            "perm_std": 0.004841492427580663,
+            "p_value": 0.0
+          },
+          "cosine": {
+            "observed_distance": 0.590130118793707,
+            "perm_mean": 0.5606042957392621,
+            "perm_std": 0.003905509198949773,
+            "p_value": 0.0
+          },
+          "stylometric": {
+            "observed_distance": 5.226862118364168,
+            "perm_mean": 3.8395031014210415,
+            "perm_std": 0.06473954488331035,
+            "p_value": 0.0
+          }
+        }
+      },
+      "book_level_primary": {
+        "burrows_delta": {
+          "psychographed_vs_baseline": {
+            "observed_distance": 1.0092930071837325,
+            "perm_mean": 0.9140890791289634,
+            "perm_std": 0.021315687340287496,
+            "p_value": 0.006993006993006993,
+            "exact_enumeration": true,
+            "n_permutations_used": 286,
+            "n_books_a": 10,
+            "n_books_b": 3,
+            "p_value_fdr_adjusted": 0.038461538461538464
+          }
+        },
+        "cosine": {
+          "psychographed_vs_baseline": {
+            "observed_distance": 0.590130118793707,
+            "perm_mean": 0.5634591676799482,
+            "perm_std": 0.006580902859981975,
+            "p_value": 0.006993006993006993,
+            "exact_enumeration": true,
+            "n_permutations_used": 286,
+            "n_books_a": 10,
+            "n_books_b": 3,
+            "p_value_fdr_adjusted": 0.038461538461538464
+          }
+        },
+        "stylometric": {
+          "psychographed_vs_baseline": {
+            "observed_distance": 5.226862118364168,
+            "perm_mean": 3.964724015233082,
+            "perm_std": 0.2934311868103286,
+            "p_value": 0.006993006993006993,
+            "exact_enumeration": true,
+            "n_permutations_used": 286,
+            "n_books_a": 10,
+            "n_books_b": 3,
+            "p_value_fdr_adjusted": 0.038461538461538464
+          }
+        }
+      }
+    },
+    "castro_alves": {
+      "n_psychographed_chunks": 2,
+      "n_psychographed_books": 2,
+      "chunk_level_exploratory": {
+        "psychographed_vs_genuine_control": {
+          "burrows_delta": {
+            "observed_distance": 1.3052667716629718,
+            "perm_mean": 1.0788921709692938,
+            "perm_std": 0.06538539027671628,
+            "p_value": 0.0022
+          },
+          "cosine": {
+            "observed_distance": 0.5342069245078717,
+            "perm_mean": 0.4903677712833105,
+            "perm_std": 0.05315314509432543,
+            "p_value": 0.199
+          },
+          "stylometric": {
+            "observed_distance": 6.816036803754339,
+            "perm_mean": 4.206341835083895,
+            "perm_std": 0.5352096250003591,
+            "p_value": 0.0002
+          }
+        },
+        "psychographed_vs_baseline": {
+          "burrows_delta": {
+            "observed_distance": 1.313941730214723,
+            "perm_mean": 0.953552731111239,
+            "perm_std": 0.06252808067213313,
+            "p_value": 0.0002
+          },
+          "cosine": {
+            "observed_distance": 0.6331053815551361,
+            "perm_mean": 0.5605911567180258,
+            "perm_std": 0.04518867377275964,
+            "p_value": 0.0654
+          },
+          "stylometric": {
+            "observed_distance": 8.279944296284294,
+            "perm_mean": 3.9474038180502133,
+            "perm_std": 0.7580501410337784,
+            "p_value": 0.0
+          }
+        }
+      },
+      "n_control_chunks": 78,
+      "n_control_books": 3,
+      "book_level_primary": {
+        "burrows_delta": {
+          "psychographed_vs_genuine_control": {
+            "observed_distance": 1.3052667716629718,
+            "perm_mean": 1.1272827329740696,
+            "perm_std": 0.061472911391264894,
+            "p_value": 0.1,
+            "exact_enumeration": true,
+            "n_permutations_used": 10,
+            "n_books_a": 2,
+            "n_books_b": 3,
+            "p_value_fdr_adjusted": 0.14347826086956522
+          },
+          "psychographed_vs_baseline": {
+            "observed_distance": 1.313941730214723,
+            "perm_mean": 1.0710321735074877,
+            "perm_std": 0.08223237767589694,
+            "p_value": 0.1,
+            "exact_enumeration": true,
+            "n_permutations_used": 10,
+            "n_books_a": 2,
+            "n_books_b": 3,
+            "p_value_fdr_adjusted": 0.14347826086956522
+          },
+          "decisive_role_swap_test": {
+            "observed_delta_baseline_minus_control": 0.008674958551751155,
+            "genuine_control_closer": true,
+            "p_value": 0.5,
+            "exact_enumeration": true,
+            "n_permutations_used": 20,
+            "n_control_books": 3,
+            "n_baseline_books": 3,
+            "n_possible_role_assignments": 20,
+            "p_value_fdr_adjusted": 0.5657142857142856
+          }
+        },
+        "cosine": {
+          "psychographed_vs_genuine_control": {
+            "observed_distance": 0.5342069245078717,
+            "perm_mean": 0.503141813504097,
+            "perm_std": 0.019040926257897262,
+            "p_value": 0.1,
+            "exact_enumeration": true,
+            "n_permutations_used": 10,
+            "n_books_a": 2,
+            "n_books_b": 3,
+            "p_value_fdr_adjusted": 0.14347826086956522
+          },
+          "psychographed_vs_baseline": {
+            "observed_distance": 0.6331053815551361,
+            "perm_mean": 0.5974338493968758,
+            "perm_std": 0.017761642110977274,
+            "p_value": 0.1,
+            "exact_enumeration": true,
+            "n_permutations_used": 10,
+            "n_books_a": 2,
+            "n_books_b": 3,
+            "p_value_fdr_adjusted": 0.14347826086956522
+          },
+          "decisive_role_swap_test": {
+            "observed_delta_baseline_minus_control": 0.09889845704726441,
+            "genuine_control_closer": true,
+            "p_value": 0.05,
+            "exact_enumeration": true,
+            "n_permutations_used": 20,
+            "n_control_books": 3,
+            "n_baseline_books": 3,
+            "n_possible_role_assignments": 20,
+            "p_value_fdr_adjusted": 0.14347826086956522
+          }
+        },
+        "stylometric": {
+          "psychographed_vs_genuine_control": {
+            "observed_distance": 6.816036803754339,
+            "perm_mean": 4.952756973662635,
+            "perm_std": 0.8324985072024288,
+            "p_value": 0.1,
+            "exact_enumeration": true,
+            "n_permutations_used": 10,
+            "n_books_a": 2,
+            "n_books_b": 3,
+            "p_value_fdr_adjusted": 0.14347826086956522
+          },
+          "psychographed_vs_baseline": {
+            "observed_distance": 8.279944296284294,
+            "perm_mean": 5.276776858524241,
+            "perm_std": 1.0687065742347024,
+            "p_value": 0.1,
+            "exact_enumeration": true,
+            "n_permutations_used": 10,
+            "n_books_a": 2,
+            "n_books_b": 3,
+            "p_value_fdr_adjusted": 0.14347826086956522
+          },
+          "decisive_role_swap_test": {
+            "observed_delta_baseline_minus_control": 1.4639074925299544,
+            "genuine_control_closer": true,
+            "p_value": 0.1,
+            "exact_enumeration": true,
+            "n_permutations_used": 20,
+            "n_control_books": 3,
+            "n_baseline_books": 3,
+            "n_possible_role_assignments": 20,
+            "p_value_fdr_adjusted": 0.14347826086956522
+          }
+        }
+      }
+    },
+    "cruz_e_sousa": {
+      "n_psychographed_chunks": 7,
+      "n_psychographed_books": 4,
+      "chunk_level_exploratory": {
+        "psychographed_vs_genuine_control": {
+          "burrows_delta": {
+            "observed_distance": 1.1437658592001527,
+            "perm_mean": 1.0386583380767964,
+            "perm_std": 0.026571863847814122,
+            "p_value": 0.0
+          },
+          "cosine": {
+            "observed_distance": 0.5366042388744252,
+            "perm_mean": 0.5190197943281982,
+            "perm_std": 0.020265213427375098,
+            "p_value": 0.1848
+          },
+          "stylometric": {
+            "observed_distance": 7.534318595582146,
+            "perm_mean": 5.449667738521892,
+            "perm_std": 0.38975782419642935,
+            "p_value": 0.0
+          }
+        },
+        "psychographed_vs_baseline": {
+          "burrows_delta": {
+            "observed_distance": 1.2659909541190573,
+            "perm_mean": 0.9750773162307922,
+            "perm_std": 0.0366223650644974,
+            "p_value": 0.0
+          },
+          "cosine": {
+            "observed_distance": 0.6287134016442096,
+            "perm_mean": 0.5644427812477159,
+            "perm_std": 0.022007941160778113,
+            "p_value": 0.0034
+          },
+          "stylometric": {
+            "observed_distance": 6.871858196221273,
+            "perm_mean": 4.114272667302514,
+            "perm_std": 0.4076913475983151,
+            "p_value": 0.0
+          }
+        }
+      },
+      "n_control_chunks": 84,
+      "n_control_books": 2,
+      "book_level_primary": {
+        "burrows_delta": {
+          "psychographed_vs_genuine_control": {
+            "observed_distance": 1.1437658592001527,
+            "perm_mean": 1.1081557564754947,
+            "perm_std": 0.04328612366198451,
+            "p_value": 0.26666666666666666,
+            "exact_enumeration": true,
+            "n_permutations_used": 15,
+            "n_books_a": 4,
+            "n_books_b": 2,
+            "p_value_fdr_adjusted": 0.32592592592592595
+          },
+          "psychographed_vs_baseline": {
+            "observed_distance": 1.2659909541190573,
+            "perm_mean": 1.0963592940140316,
+            "perm_std": 0.07237727592384272,
+            "p_value": 0.05714285714285714,
+            "exact_enumeration": true,
+            "n_permutations_used": 35,
+            "n_books_a": 4,
+            "n_books_b": 3,
+            "p_value_fdr_adjusted": 0.14347826086956522
+          },
+          "decisive_role_swap_test": {
+            "observed_delta_baseline_minus_control": 0.12222509491890454,
+            "genuine_control_closer": true,
+            "p_value": 0.2,
+            "exact_enumeration": true,
+            "n_permutations_used": 10,
+            "n_control_books": 2,
+            "n_baseline_books": 3,
+            "n_possible_role_assignments": 10,
+            "p_value_fdr_adjusted": 0.275
+          }
+        },
+        "cosine": {
+          "psychographed_vs_genuine_control": {
+            "observed_distance": 0.5366042388744252,
+            "perm_mean": 0.5316252876525298,
+            "perm_std": 0.010781397058342062,
+            "p_value": 0.26666666666666666,
+            "exact_enumeration": true,
+            "n_permutations_used": 15,
+            "n_books_a": 4,
+            "n_books_b": 2,
+            "p_value_fdr_adjusted": 0.32592592592592595
+          },
+          "psychographed_vs_baseline": {
+            "observed_distance": 0.6287134016442096,
+            "perm_mean": 0.6012782438121216,
+            "perm_std": 0.015876419969924498,
+            "p_value": 0.08571428571428572,
+            "exact_enumeration": true,
+            "n_permutations_used": 35,
+            "n_books_a": 4,
+            "n_books_b": 3,
+            "p_value_fdr_adjusted": 0.14347826086956522
+          },
+          "decisive_role_swap_test": {
+            "observed_delta_baseline_minus_control": 0.09210916276978443,
+            "genuine_control_closer": true,
+            "p_value": 0.1,
+            "exact_enumeration": true,
+            "n_permutations_used": 10,
+            "n_control_books": 2,
+            "n_baseline_books": 3,
+            "n_possible_role_assignments": 10,
+            "p_value_fdr_adjusted": 0.14347826086956522
+          }
+        },
+        "stylometric": {
+          "psychographed_vs_genuine_control": {
+            "observed_distance": 7.534318595582146,
+            "perm_mean": 7.4144317373865904,
+            "perm_std": 0.563727817946287,
+            "p_value": 0.26666666666666666,
+            "exact_enumeration": true,
+            "n_permutations_used": 15,
+            "n_books_a": 4,
+            "n_books_b": 2,
+            "p_value_fdr_adjusted": 0.32592592592592595
+          },
+          "psychographed_vs_baseline": {
+            "observed_distance": 6.871858196221273,
+            "perm_mean": 5.361354820136203,
+            "perm_std": 0.7392783166853963,
+            "p_value": 0.08571428571428572,
+            "exact_enumeration": true,
+            "n_permutations_used": 35,
+            "n_books_a": 4,
+            "n_books_b": 3,
+            "p_value_fdr_adjusted": 0.14347826086956522
+          },
+          "decisive_role_swap_test": {
+            "observed_delta_baseline_minus_control": -0.6624603993608735,
+            "genuine_control_closer": false,
+            "p_value": 0.6,
+            "exact_enumeration": true,
+            "n_permutations_used": 10,
+            "n_control_books": 2,
+            "n_baseline_books": 3,
+            "n_possible_role_assignments": 10,
+            "p_value_fdr_adjusted": 0.6387096774193549
+          }
+        }
+      }
+    },
+    "emmanuel": {
+      "n_psychographed_chunks": 425,
+      "n_psychographed_books": 5,
+      "chunk_level_exploratory": {
+        "psychographed_vs_baseline": {
+          "burrows_delta": {
+            "observed_distance": 1.0427170462939028,
+            "perm_mean": 0.9830169944796667,
+            "perm_std": 0.004121529678208152,
+            "p_value": 0.0
+          },
+          "cosine": {
+            "observed_distance": 0.5888411256225892,
+            "perm_mean": 0.5552788261787067,
+            "perm_std": 0.0035299659693801863,
+            "p_value": 0.0
+          },
+          "stylometric": {
+            "observed_distance": 5.104464798492722,
+            "perm_mean": 3.907702728551248,
+            "perm_std": 0.07019748760916292,
+            "p_value": 0.0
+          }
+        }
+      },
+      "book_level_primary": {
+        "burrows_delta": {
+          "psychographed_vs_baseline": {
+            "observed_distance": 1.0427170462939028,
+            "perm_mean": 1.0075479312765974,
+            "perm_std": 0.015720808059368957,
+            "p_value": 0.05357142857142857,
+            "exact_enumeration": true,
+            "n_permutations_used": 56,
+            "n_books_a": 5,
+            "n_books_b": 3,
+            "p_value_fdr_adjusted": 0.14347826086956522
+          }
+        },
+        "cosine": {
+          "psychographed_vs_baseline": {
+            "observed_distance": 0.5888411256225892,
+            "perm_mean": 0.5649824937336692,
+            "perm_std": 0.009150193667677343,
+            "p_value": 0.017857142857142856,
+            "exact_enumeration": true,
+            "n_permutations_used": 56,
+            "n_books_a": 5,
+            "n_books_b": 3,
+            "p_value_fdr_adjusted": 0.07366071428571429
+          }
+        },
+        "stylometric": {
+          "psychographed_vs_baseline": {
+            "observed_distance": 5.104464798492722,
+            "perm_mean": 4.159419638553125,
+            "perm_std": 0.27557199855311537,
+            "p_value": 0.017857142857142856,
+            "exact_enumeration": true,
+            "n_permutations_used": 56,
+            "n_books_a": 5,
+            "n_books_b": 3,
+            "p_value_fdr_adjusted": 0.07366071428571429
+          }
+        }
+      }
+    },
+    "humberto_de_campos": {
+      "n_psychographed_chunks": 158,
+      "n_psychographed_books": 4,
+      "chunk_level_exploratory": {
+        "psychographed_vs_genuine_control": {
+          "burrows_delta": {
+            "observed_distance": 1.067776449715523,
+            "perm_mean": 0.9829857626727746,
+            "perm_std": 0.003084765064060516,
+            "p_value": 0.0
+          },
+          "cosine": {
+            "observed_distance": 0.642948194989211,
+            "perm_mean": 0.6224028263013898,
+            "perm_std": 0.0022247113111744394,
+            "p_value": 0.0
+          },
+          "stylometric": {
+            "observed_distance": 4.853501614244126,
+            "perm_mean": 4.2608161730227945,
+            "perm_std": 0.04166712146384166,
+            "p_value": 0.0
+          }
+        },
+        "psychographed_vs_baseline": {
+          "burrows_delta": {
+            "observed_distance": 1.1278519023885183,
+            "perm_mean": 1.0440285222341525,
+            "perm_std": 0.001396133267395407,
+            "p_value": 0.0
+          },
+          "cosine": {
+            "observed_distance": 0.5974152895949256,
+            "perm_mean": 0.5856160635885382,
+            "perm_std": 0.0010655700012246407,
+            "p_value": 0.0
+          },
+          "stylometric": {
+            "observed_distance": 4.4693974703721215,
+            "perm_mean": 4.231089181766544,
+            "perm_std": 0.014567903187773908,
+            "p_value": 0.0
+          }
+        }
+      },
+      "n_control_chunks": 404,
+      "n_control_books": 8,
+      "book_level_primary": {
+        "burrows_delta": {
+          "psychographed_vs_genuine_control": {
+            "observed_distance": 1.067776449715523,
+            "perm_mean": 0.9964792980298766,
+            "perm_std": 0.014101609961153038,
+            "p_value": 0.00202020202020202,
+            "exact_enumeration": true,
+            "n_permutations_used": 495,
+            "n_books_a": 4,
+            "n_books_b": 8,
+            "p_value_fdr_adjusted": 0.03333333333333333
+          },
+          "psychographed_vs_baseline": {
+            "observed_distance": 1.1278519023885183,
+            "perm_mean": 1.0826845358226622,
+            "perm_std": 0.0201919334035783,
+            "p_value": 0.05714285714285714,
+            "exact_enumeration": true,
+            "n_permutations_used": 35,
+            "n_books_a": 4,
+            "n_books_b": 3,
+            "p_value_fdr_adjusted": 0.14347826086956522
+          },
+          "decisive_role_swap_test": {
+            "observed_delta_baseline_minus_control": 0.06007545267299519,
+            "genuine_control_closer": true,
+            "p_value": 0.048484848484848485,
+            "exact_enumeration": true,
+            "n_permutations_used": 165,
+            "n_control_books": 8,
+            "n_baseline_books": 3,
+            "n_possible_role_assignments": 165,
+            "p_value_fdr_adjusted": 0.14347826086956522
+          }
+        },
+        "cosine": {
+          "psychographed_vs_genuine_control": {
+            "observed_distance": 0.642948194989211,
+            "perm_mean": 0.626210120737313,
+            "perm_std": 0.004919101474054352,
+            "p_value": 0.00202020202020202,
+            "exact_enumeration": true,
+            "n_permutations_used": 495,
+            "n_books_a": 4,
+            "n_books_b": 8,
+            "p_value_fdr_adjusted": 0.03333333333333333
+          },
+          "psychographed_vs_baseline": {
+            "observed_distance": 0.5974152895949256,
+            "perm_mean": 0.595560491554091,
+            "perm_std": 0.003355482523736487,
+            "p_value": 0.3142857142857143,
+            "exact_enumeration": true,
+            "n_permutations_used": 35,
+            "n_books_a": 4,
+            "n_books_b": 3,
+            "p_value_fdr_adjusted": 0.3704081632653061
+          },
+          "decisive_role_swap_test": {
+            "observed_delta_baseline_minus_control": -0.04553290539428534,
+            "genuine_control_closer": false,
+            "p_value": 0.9939393939393939,
+            "exact_enumeration": true,
+            "n_permutations_used": 165,
+            "n_control_books": 8,
+            "n_baseline_books": 3,
+            "n_possible_role_assignments": 165,
+            "p_value_fdr_adjusted": 0.9939393939393939
+          }
+        },
+        "stylometric": {
+          "psychographed_vs_genuine_control": {
+            "observed_distance": 4.853501614244126,
+            "perm_mean": 4.395119701312071,
+            "perm_std": 0.12595797804174397,
+            "p_value": 0.00404040404040404,
+            "exact_enumeration": true,
+            "n_permutations_used": 495,
+            "n_books_a": 4,
+            "n_books_b": 8,
+            "p_value_fdr_adjusted": 0.038461538461538464
+          },
+          "psychographed_vs_baseline": {
+            "observed_distance": 4.4693974703721215,
+            "perm_mean": 4.488790461703393,
+            "perm_std": 0.11149985814496113,
+            "p_value": 0.5142857142857142,
+            "exact_enumeration": true,
+            "n_permutations_used": 35,
+            "n_books_a": 4,
+            "n_books_b": 3,
+            "p_value_fdr_adjusted": 0.5657142857142856
+          },
+          "decisive_role_swap_test": {
+            "observed_delta_baseline_minus_control": -0.38410414387200476,
+            "genuine_control_closer": false,
+            "p_value": 0.8121212121212121,
+            "exact_enumeration": true,
+            "n_permutations_used": 165,
+            "n_control_books": 8,
+            "n_baseline_books": 3,
+            "n_possible_role_assignments": 165,
+            "p_value_fdr_adjusted": 0.8375
+          }
+        }
+      }
+    }
+  },
+  "has_baseline": true,
+  "methodological_note": "chunk_level_exploratory tests permute individual 500-1000 word sliding-window chunks, which are NOT independent when drawn from the same book (pseudoreplication) and should be read as descriptive, not confirmatory. book_level_primary tests treat each whole book as the exchangeable unit (exact enumeration when the number of book-to-role assignments is small) and are the primary, defensible test of the poly-authorship (H1) vs subconscious-mimicry (H0) question. decisive_role_swap_test is the direct significance test of whether genuine-control books are closer to the psychographed text than baseline books are, replacing the earlier boolean-only 'genuine_closer_than_baseline' comparison. p_value_fdr_adjusted applies Benjamini-Hochberg correction across EVERY book-level primary test reported anywhere in book_level_primary (psychographed_vs_genuine_control, psychographed_vs_baseline, and decisive_role_swap_test, for every author), not a narrower subset, so the correction family matches the full set of primary results presented in the paper's tables."
+}

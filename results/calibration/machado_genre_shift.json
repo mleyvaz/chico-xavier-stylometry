@@ -1,0 +1,32 @@
+{
+  "burrows_delta": {
+    "observed_distance": 1.168155659674653,
+    "perm_mean": 1.1283199746418593,
+    "perm_std": 0.03007187942919101,
+    "p_value": 0.3333333333333333,
+    "exact_enumeration": true,
+    "n_permutations_used": 3,
+    "n_books_a": 1,
+    "n_books_b": 2
+  },
+  "cosine": {
+    "observed_distance": 0.7013199926583226,
+    "perm_mean": 0.6744970866588754,
+    "perm_std": 0.019745590352557057,
+    "p_value": 0.3333333333333333,
+    "exact_enumeration": true,
+    "n_permutations_used": 3,
+    "n_books_a": 1,
+    "n_books_b": 2
+  },
+  "stylometric": {
+    "observed_distance": 4.757937340108109,
+    "perm_mean": 4.401977606804058,
+    "perm_std": 0.28148835506097947,
+    "p_value": 0.3333333333333333,
+    "exact_enumeration": true,
+    "n_permutations_used": 3,
+    "n_books_a": 1,
+    "n_books_b": 2
+  }
+}

@@ -1,0 +1,20 @@
+# Raw source texts: not redistributed (copyright — several Chico Xavier
+# psychographed works remain under copyright; see data/manifest.json for
+# original public sources instead).
+data/raw/
+data/processed/corpus.csv
+data/processed/baseline_chico_xavier.csv
+
+# Large, fully regenerable from features.csv/embeddings.npy via src/models/analysis.py
+results/*.npy
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Submission-prep file with internal TO-CONFIRM checklist; not for public repo
+results/DSH_SUBMISSION.md

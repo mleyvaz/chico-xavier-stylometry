@@ -1,0 +1,52 @@
+{
+  "baseline": {
+    "label": "chico_xavier_baseline",
+    "description": "Chico Xavier's own conscious speech (wakefulness), Pinga-Fogo TV Tupi 1971",
+    "source": "kaggle:iaespirita/pinga-fogo-com-chico-xavier-tv-tupi-1971",
+    "requires": "kaggle_api_credentials"
+  },
+  "archive_org": [
+    { "group": "control", "author": "castro_alves", "identifier": "alves-espumas-flutuantes", "file": "alves - espumas flutuantes_djvu.txt", "book": "Espumas Flutuantes (1870)" },
+    { "group": "control", "author": "castro_alves", "identifier": "escravos-os", "file": "Escravos, Os_djvu.txt", "book": "Os Escravos (1883)" },
+    { "group": "control", "author": "humberto_de_campos", "identifier": "o-brasil-anedotico", "file": "1927 - O Brasil Anedótico - HC_djvu.txt", "book": "O Brasil Anedótico (1927)" },
+    { "group": "control", "author": "humberto_de_campos", "identifier": "1932-o-monstro-e-outros-contos-hc", "file": "1932 - O Monstro e outros contos - HC_djvu.txt", "book": "O Monstro e outros Contos (1932)" },
+
+    { "group": "psychographed_anthology", "attributed_authors": ["castro_alves", "cruz_e_sousa"], "identifier": "parnaso-de-alem-tumulo", "file": "Parnaso-de-Alem-Tumulo-OCR_djvu.txt", "book": "Parnaso de Além-Túmulo (1932)", "note": "Multi-author anthology; requires per-poet segmentation by name header." },
+
+    { "group": "psychographed", "attributed_author": "emmanuel", "identifier": "fontevivapsicografiachicoxavierespiritoemmanuel", "file": "Fonte Viva (psicografia Chico Xavier - espirito Emmanuel)_djvu.txt", "book": "Fonte Viva (1944)" },
+    { "group": "psychographed", "attributed_author": "emmanuel", "identifier": "renuncia-por-emmanuel-e-chico-xavier", "file": "Renúncia, por Emmanuel e Chico Xavier_djvu.txt", "book": "Renúncia (1944)" },
+    { "group": "psychographed", "attributed_author": "emmanuel", "identifier": "ave-cristo-autor-chico-xavier", "file": "Ave Cristo, autor Chico Xavier_djvu.txt", "book": "Ave, Cristo (1954)" },
+    { "group": "psychographed", "attributed_author": "emmanuel", "identifier": "50-anos-depois", "file": "50-Anos-Depois_djvu.txt", "book": "50 Anos Depois (1958)" },
+
+    { "group": "psychographed", "attributed_author": "andre_luiz", "identifier": "LivrosEspritas-SrieAndrLuiz", "file": "1-NossoLar_djvu.txt", "book": "Nosso Lar (1944)" },
+    { "group": "psychographed", "attributed_author": "andre_luiz", "identifier": "LivrosEspritas-SrieAndrLuiz", "file": "2-OsMensageiros_djvu.txt", "book": "Os Mensageiros (1944)" },
+    { "group": "psychographed", "attributed_author": "andre_luiz", "identifier": "LivrosEspritas-SrieAndrLuiz", "file": "3-MissionriosDaLuz_djvu.txt", "book": "Missionários da Luz (1945)" },
+    { "group": "psychographed", "attributed_author": "andre_luiz", "identifier": "LivrosEspritas-SrieAndrLuiz", "file": "4-ObreirosDaVidaEterna_djvu.txt", "book": "Obreiros da Vida Eterna (1946)" },
+    { "group": "psychographed", "attributed_author": "andre_luiz", "identifier": "LivrosEspritas-SrieAndrLuiz", "file": "5-NoMundoMaior_djvu.txt", "book": "No Mundo Maior (1947)" },
+    { "group": "psychographed", "attributed_author": "andre_luiz", "identifier": "LivrosEspritas-SrieAndrLuiz", "file": "6-AgendaCrist_djvu.txt", "book": "Agenda Cristã" },
+    { "group": "psychographed", "attributed_author": "andre_luiz", "identifier": "LivrosEspritas-SrieAndrLuiz", "file": "7-Libertao_djvu.txt", "book": "Libertação" },
+    { "group": "psychographed", "attributed_author": "andre_luiz", "identifier": "LivrosEspritas-SrieAndrLuiz", "file": "8-EntreATerraEOCu_djvu.txt", "book": "Entre a Terra e o Céu" },
+    { "group": "psychographed", "attributed_author": "andre_luiz", "identifier": "LivrosEspritas-SrieAndrLuiz", "file": "9-NosDomniosDaMediunidade_djvu.txt", "book": "Nos Domínios da Mediunidade" },
+    { "group": "psychographed", "attributed_author": "andre_luiz", "identifier": "LivrosEspritas-SrieAndrLuiz", "file": "10-AoEReao_djvu.txt", "book": "Ação e Reação" },
+
+    { "group": "control", "author": "castro_alves", "identifier": "3569072", "file": "3569072_djvu.txt", "book": "A Cachoeira de Paulo Afonso / Gonzaga (microform)" },
+    { "group": "control", "author": "cruz_e_sousa", "identifier": "3345231", "file": "3345231_djvu.txt", "book": "Evocações (microform)" },
+    { "group": "control", "author": "humberto_de_campos", "identifier": "memorias-e-memoria-inacabadas", "file": "memorias-e-memoria-inacabadas_djvu.txt", "book": "Memórias e Memórias Inacabadas" },
+    { "group": "control", "author": "humberto_de_campos", "identifier": "o-arco-de-esopo", "file": "1926 - O ARCO DE ESOPO_djvu.txt", "book": "O Arco de Esopo (1926)" },
+    { "group": "control", "author": "humberto_de_campos", "identifier": "sepultando-os-meus-mortos", "file": "1935 - Volume 08 - Sepultando os meus Mortos_djvu.txt", "book": "Sepultando os meus Mortos (1935)" },
+    { "group": "control", "author": "humberto_de_campos", "identifier": "mealheiro-de-agripa", "file": "1925 - MEALHEIRO DE AGRIPA_djvu.txt", "book": "Mealheiro de Agripa (1925)" },
+    { "group": "control", "author": "humberto_de_campos", "identifier": "ultimas-cronicas-1936", "file": "ÚLTIMAS CRÔNICAS 1936_djvu.txt", "book": "Últimas Crônicas (1936)" },
+    { "group": "control", "author": "humberto_de_campos", "identifier": "sombrasquesofrem", "file": "sombrasquesofrem_djvu.txt", "book": "Sombras que Sofrem" }
+  ],
+  "pdf_extract": [
+    { "group": "control", "author": "cruz_e_sousa", "url": "https://www.algosobre.com.br/downloads/livros/obras-literarias-pdf/494-cruz-e-sousa-farois/file.html", "book": "Faróis (1900)" },
+
+    { "group": "psychographed", "attributed_author": "humberto_de_campos", "url": "https://www.oconsolador.com.br/linkfixo/bibliotecavirtual/chicoxavier/cronicasdealemturmulo.pdf", "book": "Crônicas de Além-Túmulo (1937)" },
+    { "group": "psychographed", "attributed_author": "humberto_de_campos", "url": "https://www.oconsolador.com.br/linkfixo/bibliotecavirtual/chicoxavier/novasmensagens.pdf", "book": "Novas Mensagens (1935)" },
+    { "group": "psychographed", "attributed_author": "humberto_de_campos", "url": "https://www.oconsolador.com.br/linkfixo/bibliotecavirtual/chicoxavier/Brasil_Coracao_do_Mundo_Patria_do_Evangelho.pdf", "book": "Brasil, Coração do Mundo, Pátria do Evangelho (1938)" },
+    { "group": "psychographed", "attributed_author": "humberto_de_campos", "url": "https://www.oconsolador.com.br/linkfixo/bibliotecavirtual/chicoxavier/pontosecontos.pdf", "book": "Pontos e Contos" }
+  ],
+  "doc_extract": [
+    { "group": "psychographed", "attributed_author": "emmanuel", "url": "https://www.oconsolador.com.br/linkfixo/bibliotecavirtual/chicoxavier/paonosso.doc", "book": "Pão Nosso" }
+  ]
+}
